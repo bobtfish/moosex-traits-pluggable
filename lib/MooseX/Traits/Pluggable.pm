@@ -126,8 +126,6 @@ sub _build_instance_with_traits {
             # to lies. CatalystX::Component::Traits related special move
             # to deal with this here.
             $meta = find_meta($meta->name);
-
-            $meta->add_method('meta' => sub { $meta });
             $class = $meta->name;
         }
     }

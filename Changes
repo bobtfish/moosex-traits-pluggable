@@ -1,5 +1,8 @@
 Revision history for MooseX-Traits-Pluggable
 
+    - Remove adding a 'meta' method to generated classes as the
+      parent's method should be used.
+
 0.09  2010-02-07 00:59:59
     - update POD
 
